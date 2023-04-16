@@ -7,7 +7,7 @@ var leftNum='1';
 var rightNum='2';
 left. addEventListener('click', function () {
     a[parseInt(leftNum)-1]= a[parseInt(leftNum)-1]+1;
-    if(a[parseInt(leftNum)-1]>=15){
+    if(a[parseInt(leftNum)-1]>=9){
         //ans = number(leftNum);
 
     //     const ul = document.querySelector(".edit");
@@ -29,7 +29,7 @@ right.setAttribute('src', `img${rightNum}.jpg`)
 })
 right.addEventListener('click', function () {
     a[parseInt(rightNum)-1]= a[parseInt(rightNum)-1]+1;
-    if(a[parseInt(rightNum)-1]>=15){
+    if(a[parseInt(rightNum)-1]>=9){
     //     const ul = document.querySelector(".edit");
     // const exist1 = document.createElement("li");
     // exist1.textContent = " looks like you've found your fav "; 
